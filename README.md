@@ -32,3 +32,6 @@ kintone_app_id は必須項目です。
 ```
 curl -X POST -H "Content-Type:application/json" -d '{"ticket_id":"100","zendesk_created_at":"2018-01-01"}' {URL}
 ```
+
+## GoDoc
+[https://godoc.org/github.com/yoheimiyamoto/zendeskintone](https://godoc.org/github.com/yoheimiyamoto/zendeskintone)

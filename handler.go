@@ -27,6 +27,9 @@ func main() {
 	appengine.Main()
 }
 
+/*
+zendeskからのwebhookを受け取ってKintoneにPostします。
+*/
 func Handler(w http.ResponseWriter, r *http.Request) {
 	ctx := appengine.NewContext(r)
 
